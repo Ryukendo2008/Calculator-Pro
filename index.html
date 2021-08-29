@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+          <meta charset="UTF-8">
+          <meta http-equiv="X-UA-Compatible" content="IE=edge">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <title>Calculator</title>
+          <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+          <div class="cal-body">
+                    <form name="calculator">
+                              <div id="screen"><input id="cal-screen" type="text" name="screen"></div>
+                              <input id="btn" name="btn-9" type="button" value="9" onclick="display(9)">
+                              <input id="btn" name="btn-8" type="button" value="8" onclick="display(8)">
+                              <input id="btn" name="btn-7" type="button" value="7" onclick="display(7)">
+                              <input id="ac" class="ac" name="ac" type="button" value="AC" onclick="clear( )"><br>
+                              <input id="btn" name="btn-6" type="button" value="6" onclick="display(6)">
+                              <input id="btn" name="btn-5" type="button" value="5" onclick="display(5)">
+                              <input id="btn" name="btn-4" type="button" value="4" onclick="display(4)">
+                              <input id="btn" name="multi" type="button" value="*" onclick="display(multi.value)"><br>
+                              <input id="btn" name="btn-3" type="button" value="3" onclick="display(3)">
+                              <input id="btn" name="btn-2" type="button" value="2" onclick="display(2)">
+                              <input id="btn" name="btn-1" type="button" value="1" onclick="display(1)">
+                              <input id="btn" name="div" type="button" value="/" onclick="display(div.value)"><br>
+                              <input id="btn" name="dot" type="button" value="." onclick="display(dot.value)">
+                              <input id="btn" name="btn-0" type="button" value="0" onclick="display(0)">
+                              <input id="btn" name="minus" type="button" value="-" onclick="display(minus.value)">
+                              <input id="btn" name="plus" type="button" value="+" onclick="display(plus.value)"><br>
+                              <input id="equal" name="equal" type="button" value="="
+                                        onclick="screen.value=eval(screen.value)">
+                    </form>
+          </div>
+          <script src="main.js"></script>
+</body>
+
+</html>

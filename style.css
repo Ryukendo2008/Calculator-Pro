@@ -1,0 +1,53 @@
+body{
+          padding: 100px;
+}
+.cal-body{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          width: 450px;
+          margin: 0 auto;
+          border-radius: 20px;
+          box-shadow: 10px 10px 50px rgb(221, 220, 220),-10px -10px 50px rgb(221, 220, 220);
+          padding: 60px;
+}
+form{
+          width: 100%;
+          margin: 0 auto;
+}
+#screen input{
+          margin-bottom: 30px;
+          width: 100%;
+          height: 90px;
+          font-size: 40px;
+          box-shadow: inset 10px 10px 50px rgb(221, 220, 220);
+          border: white 1px solid;
+          border-radius: 10px;
+          text-align: center;
+}
+#btn, #ac{
+          width: 75px;
+          height: 75px;
+          border-radius: 50%;
+          margin: 16px;
+          text-align: center;
+          font-size: large;
+          background-color: honeydew;
+          border: white 1px solid;
+          box-shadow: 1px 1px 20px rgb(172, 172, 172);
+}
+#btn, #ac:active{
+          box-shadow: -2px -2px 30px rgb(181, 180, 180);
+}
+#equal{
+          width: 90%;
+          height: 70px;
+          margin-top: 30px;
+          border-radius: 50px;
+          text-align: center;
+          margin-left: 20px;
+          font-size: large;
+          background-color: honeydew;
+          border: white 1px solid;
+          box-shadow: 1px 1px 20px rgb(172, 172, 172);
+}
